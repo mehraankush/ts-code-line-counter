@@ -1,3 +1,7 @@
+
+**Author:** Ankush Mehra  
+**Repository:** [GitHub - ankushmehra/ts-code-line-counter](https://github.com/ankushmehra69/ts-code-line-counter)
+
 # TypeScript Code Line Counter
 
 A robust and type-safe npm library for counting lines of code in your projects, built with TypeScript.
