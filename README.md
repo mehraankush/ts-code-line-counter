@@ -1,6 +1,6 @@
 
 **Author:** Ankush Mehra  
-**Repository:** [GitHub - ankushmehra/ts-code-line-counter](https://github.com/ankushmehra69/ts-code-line-counter)
+**Repository:** [GitHub - ankushmehra/ts-code-line-counter](https://github.com/mehraankush/ts-code-line-counter)
 
 # TypeScript Code Line Counter
 
