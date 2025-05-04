@@ -1,0 +1,65 @@
+{
+  "name": "ts-code-line-counter",
+  "version": "1.0.3",
+  "description": "A TypeScript library to count lines of code in a codebase with beautiful CLI output",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "ts-code-line-counter": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "start": "node dist/cli.js",
+    "prepublishOnly": "npm run build && npm test",
+    "lint": "eslint 'src/**/*.ts'",
+    "lint:fix": "eslint 'src/**/*.ts' --fix",
+    "clean": "rm -rf dist coverage",
+    "dev": "tsc -w",
+    "format": "prettier --write 'src/**/*.ts'",
+    "prepare": "npm run build",
+    "check-types": "tsc --noEmit",
+    "postbuild": "chmod +x ./dist/cli.js"
+  },
+  "keywords": [
+    "code",
+    "lines",
+    "counter",
+    "metrics",
+    "analytics",
+    "sloc",
+    "loc",
+    "typescript",
+    "cli",
+    "statistics",
+    "programming",
+    "developer-tools",
+    "code-quality"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cli-table3": "^0.6.3",
+    "figlet": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/figlet": "^1.5.6",
+    "@types/jest": "^29.5.0",
+    "@types/node": "^18.15.0",
+    "@typescript-eslint/eslint-plugin": "^5.54.0",
+    "@typescript-eslint/parser": "^5.54.0",
+    "eslint": "^8.35.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
