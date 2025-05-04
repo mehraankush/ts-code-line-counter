@@ -1,6 +1,6 @@
 {
   "name": "ts-code-line-counter",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A TypeScript library to count lines of code in a codebase with beautiful CLI output",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
